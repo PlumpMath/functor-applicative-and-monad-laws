@@ -1,0 +1,32 @@
+{
+  "name": "functor-applicative-and-monad-laws",
+  "version": "0.1.0",
+  "description": "Functor, Applicative Functor and Monad laws implemented in JavaScript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mpereira/functor-applicative-and-monad-laws.git"
+  },
+  "keywords": [
+    "functor",
+    "applicative",
+    "monad",
+    "haskell",
+    "law",
+    "functional"
+  ],
+  "author": "Murilo Pereira <murilo@murilopereira.com>",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/mpereira/functor-applicative-and-monad-laws/issues"
+  },
+  "homepage": "https://github.com/mpereira/functor-applicative-and-monad-laws",
+  "dependencies": {
+    "bilby": "0.0.2",
+    "immutable": "~3.4.1",
+    "assert": "~1.3.0"
+  }
+}
