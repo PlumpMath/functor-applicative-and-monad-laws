@@ -68,7 +68,7 @@ console.log('Functor Law #2 (Composition): fmap (f . g) = fmap f . fmap g');
 //   pure                   = Just
 //   Nothing  <*> _         = Nothing
 //   (Just f) <*> something = fmap f something
-Maybe.pure = function(value) { return(Just(value)); };
+Maybe.pure = Just;
 
 Maybe.apply = curry(function(maybeF, maybeV) {
   return(maybeF === Nothing ? Nothing : Maybe.fmap(maybeF.get('value'), maybeV));
